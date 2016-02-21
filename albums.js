@@ -4,7 +4,7 @@ var albums = [
 type: "photoAlbums",
 albumTitle: "Tropics",
 albumUrl:"images/Album1-pic1-thumb.jpg",
-navButton: "button-1"
+navButtonOne: "button-1",
 },
 
 pic_one_al1: {
@@ -36,10 +36,10 @@ album2:{
 type: "photoAlbums",
 albumTitle: "Tech",
 albumUrl:"images/Album2-pic1-thumb.jpg",
-navButton: "button-2"
+navButtonTwo: "button-2",
 },
 
-pic_one: {
+pic_one_al2: {
 
 photoName:"Photo-one",
   photoUrl:"images/Album2-pic2.jpeg",
@@ -47,7 +47,7 @@ photoName:"Photo-one",
 
 },
 
-pic_two:  {
+pic_two_al2:  {
 
   photoName:"Photo-two",
   photoUrl:"images/Album2-pic3.jpeg",
@@ -55,7 +55,7 @@ pic_two:  {
 
 },
 
-pic_three: {
+pic_three_al2: {
 
 photoName:"Photo-three",
 photoUrl:"images/Album2-pic4.jpeg",
@@ -68,10 +68,10 @@ album3:{
 type: "photoAlbums",
 albumTitle: "City Life",
 albumUrl:"images/Album3-pic1-thumb.jpg",
-navButton: "button-3"
+navButtonThree: "button-3",
 },
 
-pic_one: {
+pic_one_al3: {
 
 photoName:"Photo-one",
   photoUrl:"images/Album3-pic2.jpeg",
@@ -79,15 +79,15 @@ photoName:"Photo-one",
 
 },
 
-pic_two:  {
+pic_two_al3:  {
 
   photoName:"Photo-two",
   photoUrl:"images/Album3-pic3.jpeg",
-  photoThumbUrl:"images/Album3-pic3-thumb.jpg",
+  photoThumbUrl:"images/Album3-pic3-thumb.jpeg",
 
 },
 
-pic_three: {
+pic_three_al3: {
 
 photoName:"Photo-three",
 photoUrl:"images/Album3-pic4.jpeg",
@@ -101,10 +101,10 @@ album4:{
 type: "photoAlbums",
 albumTitle: "Vegan",
 albumUrl:"images/Album4-pic1-thumb.jpg",
-navButton: "button-4"
+navButtonFour: "button-4",
 },
 
-pic_one: {
+pic_one_al4: {
 
 photoName:"Photo-one",
   photoUrl:"images/Album4-pic2.jpeg",
@@ -112,7 +112,7 @@ photoName:"Photo-one",
 
 },
 
-pic_two:  {
+pic_two_al4:  {
 
   photoName:"Photo-two",
   photoUrl:"images/Album4-pic3.jpeg",
@@ -120,7 +120,7 @@ pic_two:  {
 
 },
 
-pic_three: {
+pic_three_al4: {
 
 photoName:"Photo-three",
 photoUrl:"images/Album4-pic4.jpeg",
@@ -133,10 +133,10 @@ album5:{
 type: "photoAlbums",
 albumTitle: "Wild Life",
 albumUrl:"images/Album5-pic1-thumb.jpg",
-navButton: "button-5"
+navButtonFive: "button-5",
 },
 
-pic_one: {
+pic_one_al5: {
 
 photoName:"Photo-one",
   photoUrl:"images/Album5-pic2.jpeg",
@@ -144,7 +144,7 @@ photoName:"Photo-one",
 
 },
 
-pic_two:  {
+pic_two_al5:  {
 
   photoName:"Photo-two",
   photoUrl:"images/Album5-pic3.jpeg",
@@ -152,7 +152,7 @@ pic_two:  {
 
 },
 
-pic_three: {
+pic_three_al5: {
 
 photoName:"Photo-three",
 photoUrl:"images/Album5-pic4.jpeg",
@@ -165,10 +165,10 @@ album6:{
 type: "photoAlbums",
 albumTitle: "Views",
 albumUrl:"images/Album6-pic1-thumb.jpg",
-navButton: "button-6"
+navButtonSix: "button-6",
 },
 
-pic_one: {
+pic_one_al6: {
 
 photoName:"Photo-one",
   photoUrl:"images/Album6-pic2.jpeg",
@@ -176,7 +176,7 @@ photoName:"Photo-one",
 
 },
 
-pic_two:  {
+pic_two_al6:  {
 
   photoName:"Photo-two",
   photoUrl:"images/Album6-pic3.jpeg",
@@ -184,7 +184,7 @@ pic_two:  {
 
 },
 
-pic_three: {
+pic_three_al6: {
 
 photoName:"Photo-three",
 photoUrl:"images/Album6-pic4.jpeg",
