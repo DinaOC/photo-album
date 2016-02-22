@@ -1,13 +1,14 @@
 $(document).ready(function(){
 
 $('.second-page').hide();
-$('nav-bar').hide();
+$('.nav-bar').hide();
 
-$('first-page').on('click','img', function(event) {
+$('.first-page').on('click','img', function(event) {
   event.preventDefault();
   var selectedItem = $(this).attr('rel');
+  var albumToPutOnPage =albums [0][selectedItem];
   $(selectedItem).siblings().hide();
-  $(selectedItem).show();
+  $(albumToPutOnPage).show();
 })
 
 var photoStr ="";
@@ -16,7 +17,7 @@ albums.forEach(function(element){
  photoStr +=  "<li>"
 + "<img src='"
 + element.album1.albumUrl
-+ "' />"
++ "'  rel = 'album1' />"
 +"</li>"
 //+ "<h4>"
 //+ element.album1.albumTitle
@@ -24,7 +25,7 @@ albums.forEach(function(element){
 + "<li>"
 + "<img src='"
 + element.album2.albumUrl
-+ "' />"
++ "' rel = 'album2' />"
 +"</li>"
 //+ "<h4>"
 //+ element.album2.albumTitle
@@ -32,7 +33,7 @@ albums.forEach(function(element){
 +"<li>"
 + "<img src='"
 + element.album3.albumUrl
-+ "' />"
++ "' rel = 'album3' />"
 +"</li>"
 //+ "<h4>"
 //+ element.album3.albumTitle
@@ -40,7 +41,7 @@ albums.forEach(function(element){
 +"<li>"
 +"<img src='"
 + element.album4.albumUrl
-+ "' />"
++ "' rel = 'album4' />"
 +"</li>"
 //+ "<h4>"
 //+ element.album4.albumTitle
@@ -48,7 +49,7 @@ albums.forEach(function(element){
 +"<li>"
 + "<img src='"
 + element.album5.albumUrl
-+ "' />"
++ "' rel = 'album5' />"
 +"</li>"
 //+ "<h4>"
 //+ element.album5.albumTitle
@@ -56,7 +57,7 @@ albums.forEach(function(element){
 +"<li>"
 + "<img src='"
 + element.album6.albumUrl
-+ "' />"
++ "' rel = 'album6' />"
 +"</li>"
 //+ "<h4>"
 //+ element.album6.albumTitle
@@ -120,7 +121,7 @@ albums.forEach(function(el){
 
 inAlbumThree += "<li>"
 + "<img src='"
-+ el.pic_one_al3.photoThumbUrl + "' />"
++ el.pic_one_al3.photoThumbUrl + "' rel = 'album3' />"
 + "</li>"
 + "<li>"
 + "<img src='"
