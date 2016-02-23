@@ -5,6 +5,36 @@
     <title>Photo albums</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+       <script type="text/template" id = "first-template">
+         <li>
+         <img src='<%=photoThumbUrl%>'  rel = '<%=photoName>%' />
+         </li>
+
+       </script>
+
+       <script type="text/template" id = "second-template"  >
+         <ul>
+           <li>
+             <img src='<%= albums.album1.albumUrl %>' rel = 'album1' />
+          </li>
+
+          <li>
+          <img src='<%= albums.album2.albumUrl %>' rel = 'album2' />
+        </li>
+          <li>
+          <img src='<%=albums.album3.albumUrl %>' rel = 'album3>' />
+          </li>
+          <li>
+          <img src='<%=albums.album4.albumUrl %>' rel = '<album4>' />
+        </li>
+        <li>
+          <img src='<%=albums.album5.albumUrl %>' rel = '<album5>' />
+          </li>
+          <li>
+          <img src='<%=albums.album6.albumUrl %>' rel = '<album6>' />
+          </li>
+      </ul>
+       </script>
   </head>
   <body>
 
